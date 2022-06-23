@@ -1,0 +1,228 @@
+@media (max-width: 991.98px) { 
+    .nav-link{
+        text-align: center;
+        font-weight: 500;
+    }
+    .contact_us{
+        width: 100%;
+        padding: 30px;
+    }
+    .cheek{
+        display: flex;
+        align-items: center;
+    }
+   
+ }
+ /* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .nav-link{
+        text-align: center;
+        font-weight: 500;
+    }
+    .nav-link:hover{
+        background: #f3f1f1;
+    }
+    .banner_content h1 {
+        font-size: 70px;
+    }
+    .banner_content span {
+        width: 75%;
+        margin: auto;
+    }
+    .feature_section {
+        padding: 10px 0;
+    }
+    .showcase {
+        padding: 30px 0;
+    }
+    .cheek{
+        display: flex;
+        align-items: center;
+    }
+    .input_name input{
+        padding: 10px 3px;
+    }
+    .button{
+        margin-top: 15px;
+    }
+    .cheek label{
+        color: #fff;
+        margin-left: 5px;
+    }
+    .feature_section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .frist_feature{
+        max-width: 90%!important;
+        padding: 20px 0;
+        margin: 20px 0;
+    }
+    .showcase_iteam{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .iteam {
+        max-width: 95%;
+        margin-top: 20px;
+    }
+    form {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    .simple h1 {
+        font-size: 35px;
+        padding-top: 10px;
+    }  
+    .simple {
+        padding: 20px 0;
+    }  
+    .simple p {
+        margin: 0px;
+    }
+    .banner_content h1{
+        font-size: 40px;
+    }
+    .banner_content span{
+        width: 40%;
+        margin: auto;
+    }
+    .banner_content p{
+        margin: 20px 60px;
+    }
+    .feature_section{
+        display: block;
+        padding: 0 0;
+    }
+    .frist_feature{
+        max-width: 100%;
+        margin: 20px 0;
+        background: transparent;
+        padding: 25px 10px;
+        border-radius: 15px;
+        transition: .5s all ease-in-out;
+    }
+    .frist_feature:hover{
+        box-shadow: 1px 1px 20px 0px;
+    }
+    .showcase{
+        padding: 40px 15px;
+    }
+    .iteam_text h1{
+        font-size: 30px;
+    }
+    .iteam_text p{
+        margin-top: 8px;
+        margin-bottom: 60px;
+    }
+    .showcase_iteam{
+        display: block;
+    }
+    .iteam{
+        max-width: 100%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .contact_us h1{
+        font-size: 25px;
+    }
+    .contact_us p{
+        margin-bottom: 20px;
+    }
+    form {
+        width: 80%;
+        margin: auto;
+    }
+    .footer_part{
+        display: block;
+        text-align: center;
+    }
+    .form_footer{
+        display: block;
+        text-align: center;
+     }
+    .socile_icon{
+        display: flex;
+        justify-content: center;
+    }
+    .footer_icon{
+        margin-right: 8px;
+        font-size: 16px;
+        transition: .4s all ease-in-out;
+    }
+    .footer_icon:hover{
+        box-shadow: 0px 0px 20px 0px;
+    }
+    button {
+        padding: 6px 30px;
+    }
+ }
+ @media (max-width: 575.98px){
+    .logo{
+        width: 40%;
+        height: auto;
+    }
+    .header_wrpper {
+        padding: 10px 0;
+    }
+    .banner_content p {
+        margin: 20px 20px;
+    }
+    .banner_content button {
+        font-size: 16px;
+        padding: 6px 10px;
+        margin-top: 5px;
+    }
+    .simple h1 {
+        font-size: 25px;
+        padding-top: 5px;
+        font-weight: 500;
+    }
+    .simple p {
+        font-size: 16px;
+        padding: 0 25px;
+    }
+    .feature_icon {
+        height: 65px;
+        width: 65px;
+        line-height: 65px;
+        font-size: 30px;
+    }
+    .frist_feature h1 {
+        font-size: 18px;
+        margin: 15px 0;
+    }
+    .iteam_text h1 {
+        font-size: 25px;
+    }
+    .iteam_text p {
+        margin-bottom: 30px;
+    }
+    .iteam {
+        margin-top: 15px;
+    }
+    .showcase {
+        padding: 15px 5px;
+    }
+    .form_footer {
+        padding: 5px 0;
+    }
+    .contact_us {
+        padding: 10px;
+    }
+    .footer_icon {
+        font-size: 16px;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+    }
+    .frist_feature {
+        margin: 10px 0;
+    }
+
+ }
